@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1D4ED8
+}
+
+/* Aplicar las fuentes definidas en next/font usando @apply */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
+
+p {
+  font-family: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+}
