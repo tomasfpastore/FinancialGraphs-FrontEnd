@@ -2,9 +2,13 @@
 
 @theme {
   --color-primary: #1D4ED8
+  --color-primary-light: #8EA7EC
+  --color-primary-dark: #0F276C
+  --color-secundary: #4ADE80
+  --color-secundary-light: #D2F7E0
+  --color-secundary-dark: #133820
 }
 
-/* Aplicar las fuentes definidas en next/font usando @apply */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
 }
